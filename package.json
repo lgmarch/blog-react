@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "echo \"ESLint\" && exit 0",
+    "editorconfig": "echo \"EditorConfig\" && exit 0"
   },
   "keywords": [],
   "author": "",
