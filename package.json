@@ -5,9 +5,15 @@
   "main": "index.js",
   "scripts": {
     "eslint": "echo \"ESLint\" && exit 0",
-    "editorconfig": "echo \"EditorConfig\" && exit 0"
+    "editorconfig": "echo \"EditorConfig\" && exit 0",
+    "homepage": " https://lgmarch.github.io/blog-react/",
+    "build": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
